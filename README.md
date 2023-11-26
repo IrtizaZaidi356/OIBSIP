@@ -1,5 +1,6 @@
 # OIBSIP
 # **Data Science | Remote Internship | Oasis InfoByte**
+
 ## **Perfom to Task No# 01: IRIS Flower Classification**
   - Iris flower has three species, setosa, versicolor, and virginica, which differs according to their measurements. Now assume that you have the measurements of the iris flowers according to their species and here your task is to train a machine learning model that can learn from the measurements of the iris species and classify them.
   - Although the Scikit-learn library provides a dataset for iris flower classification
@@ -52,3 +53,35 @@ In **Conclusion**, this project demonstrated a comprehensive analysis of Iris fl
 
 #### **Conclusion:**
   - The Unemployment Analysis with Python project successfully demonstrated the application of data science techniques in exploring and understanding unemployment trends. Through systematic data exploration, insightful visualizations, and the implementation of a predictive model, the project provides a comprehensive overview of the dataset, aiding in the understanding and analysis of unemployment patterns during a critical period in India.
+
+---
+
+## **Perform Task No# 03: Car Price Prediction with Machine Learning:**
+
+ - The price of a car depends on a lot of factors like the goodwill of the brand of the car, features of the car, horsepower and the mileage it gives and many more. Car price prediction is one of the major research areas in machine learning. So if you want to learn how to train a car price prediction model.
+ 
+---
+
+### **Task No# 03: Car Price Prediction with Machine Learning:**
+
+#### **Introduction:**
+  - The Car Price Prediction project is an exploration of machine learning techniques to predict the selling price of cars based on various features. This project utilizes Python libraries such as NumPy, Pandas, Seaborn, Matplotlib, Plotly, and scikit-learn for data analysis, visualization, and model building.
+
+#### **Step 1: Importing Libraries and Handling Warnings:**
+  - The project begins by importing essential libraries and setting up the environment. Warnings are suppressed for cleaner output. Additionally, the code adjusts the figure size for better visualizations.
+
+#### **Step 2: Data Loading, Exploration, and Visualization:**
+  - The dataset, containing information on car features, is loaded and explored. Initial data analysis includes checking the structure, summary statistics, and distribution of various features. Visualization techniques such as bar charts, box charts, pair plots, histograms, scatter plots, and bubble charts are employed to gain insights into the relationships between different variables.
+
+#### **Outlier Removal:**
+  - Outliers are identified and removed using the Interquartile Range (IQR) method to enhance the accuracy of the machine learning model.
+
+#### **Step 3: Machine Learning Model:**
+  - The dataset is prepared for the machine learning model by selecting relevant features and the target variable. It is then split into training and testing sets. A Linear Regression model is employed for predicting car selling prices. The model is trained, predictions are made, and the Mean Squared Error is calculated to evaluate its performance.
+
+#### **Step 4: User Input and Prediction:**
+  - To enhance user interaction, the project allows users to input car details, including manufacturing year, present price, driven kilometers, and the number of previous owners. The Linear Regression model then predicts the selling price based on this input.
+
+#### **Conclusion:**
+  - In conclusion, the Car Price Prediction project demonstrates a comprehensive workflow in machine learning, encompassing data exploration, visualization, outlier handling, model training, and user interaction. The insights gained from visualizations and the predictive capabilities of the model make this project valuable for anyone interested in the field of car price prediction using machine learning.
+
