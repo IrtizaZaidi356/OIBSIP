@@ -85,3 +85,41 @@ In **Conclusion**, this project demonstrated a comprehensive analysis of Iris fl
 #### **Conclusion:**
   - In conclusion, the Car Price Prediction project demonstrates a comprehensive workflow in machine learning, encompassing data exploration, visualization, outlier handling, model training, and user interaction. The insights gained from visualizations and the predictive capabilities of the model make this project valuable for anyone interested in the field of car price prediction using machine learning.
 
+---
+
+## **Perform Task 04: Email Spam detection with Machine Learning:**
+  - We have all been the recipient of spam emails before, Spam mail, or junk mail is a type of email that is sent to a  massive number of users at one time, frequently containing cryptic messages, scams, or most dangerously, phishing content.
+
+---
+
+### **Project No# 04: Email Spam Detection with Machine Learning:**
+
+#### **Introduction:**
+  - The Email Spam Detection project aims to build a machine learning model that can effectively classify emails as spam or ham (non-spam). The dataset used for this project contains information about email messages, including labels indicating whether they are spam or ham.
+
+#### **Step 1: Importing Libraries and Setup:**
+  - In this step, essential libraries such as NumPy, Pandas, Seaborn, and Scikit-Learn are imported. Warnings are filtered to enhance the clarity of the presentation. The dataset is loaded, and a brief exploration is performed to understand its structure.
+
+#### **Step 2: Data Exploration:**
+   - This step involves exploring the dataset, checking for missing values, and summarizing key statistics. Unnecessary columns are dropped for simplicity, and the remaining columns are renamed for clarity. The distribution of spam and ham emails is visualized using a bar chart, and the message length distribution is examined through a histogram.
+
+#### **Step 3: Data Visualization:**
+  - Missing values are visualized using a heatmap. The distribution of spam and ham emails is further explored with a pair plot, providing insights into the relationships between different features.
+
+#### **Step 4: Data Preprocessing:**
+  - Labels are converted into numerical values (spam: 1, ham: 0) to prepare the data for model training.
+
+#### **Step 5-6: Feature Extraction and Splitting Data:**
+  - Text data is converted into a bag-of-words model using CountVectorizer. The data is then split into training and testing sets.
+
+#### **Step 7: Model Training:**
+  - A Multinomial Naive Bayes classifier is chosen for email spam detection and trained on the dataset.
+
+#### **Step 8: Model Evaluation:**
+  - The model is evaluated using the testing set, and metrics such as accuracy, confusion matrix, and classification report are displayed to assess its performance.
+
+#### **Step 9: User Input and Prediction:**
+  - The user is prompted to input an email text, and the trained model predicts whether the input email is spam or ham.
+
+#### **Conclusion:**
+  - This project demonstrates the entire process of building an email spam detection system using machine learning. Python libraries like NumPy, Pandas, and Scikit-Learn are instrumental in data manipulation, exploration, and model training. The Multinomial Naive Bayes algorithm proves effective for this classification task. The user interface allows for practical use of the model, showcasing the real-world applicability of machine learning in email filtering and cybersecurity.
