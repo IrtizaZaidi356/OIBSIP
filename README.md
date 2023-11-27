@@ -123,3 +123,36 @@ In **Conclusion**, this project demonstrated a comprehensive analysis of Iris fl
 
 #### **Conclusion:**
   - This project demonstrates the entire process of building an email spam detection system using machine learning. Python libraries like NumPy, Pandas, and Scikit-Learn are instrumental in data manipulation, exploration, and model training. The Multinomial Naive Bayes algorithm proves effective for this classification task. The user interface allows for practical use of the model, showcasing the real-world applicability of machine learning in email filtering and cybersecurity.
+
+---
+
+## **Perform Task 05: Sales Prediction using Python:**
+ - `Sales prediction` means predicting how much of a product people will buy based on factors such as the amount you spend to advertise your product, the segment of people you advertise for, or the platform you are `advertising` on about your `product`.
+ - Typically, a product and service – based business always need their `Data Scientist` to predict their future sales with every step they take to manipulate the cost of advertising their product. So let’s start the `task` of `Sales Prediction` with `Machine Learning` using `Python`.
+
+---
+### **Project No# 05: Sales Prediction using Python**
+
+#### **Introduction:**
+  - Sales prediction is crucial for businesses as it helps in planning and strategizing for future growth. In this project, we used Python and various libraries to perform Exploratory Data Analysis (EDA) and build a machine learning model for sales prediction.
+
+#### **Data Exploration and Visualization:**
+  - We started by importing necessary libraries and loading the dataset, which included features like TV, Radio, Newspaper ad expenses, and Sales. After handling missing values and creating a new feature 'Total_Ad_Expenses', we visualized the data using various charts.
+
+    - **Heatmaps and Correlation Matrix:** Explored the correlation between features.
+    - **Box Chart and Histogram:** Visualized the distribution of Sales.
+    - **Pair Plot:** Examined relationships between different features.
+    - **Scatter Plots:** Explored the impact of TV, Radio, and Newspaper expenses on Sales.
+    - **Pie Charts:** Analyzed the distribution of ad expenses with respect to the total.
+
+#### **Data Preprocessing and Feature Engineering:**
+  - We handled missing values, dropped unnecessary columns, and created a new feature for total ad expenses. The data was standardized for machine learning.
+
+#### **Machine Learning Model:**
+  - We used a Linear Regression model to predict sales based on TV, Radio, and Newspaper ad expenses. The model was trained, and predictions were made on the test set. Mean Squared Error was used for evaluation.
+
+#### **User Input and Prediction:**
+  - The user could input values for TV, Radio, and Newspaper ad expenses, and the model predicted the sales. This feature allows businesses to get quick predictions based on their specific ad spend.
+
+#### **Conclusion:**
+  - In conclusion, this project demonstrated the end-to-end process of sales prediction using Python. EDA helped in understanding the data, and the machine learning model provided valuable insights for decision-making. The user input feature adds practicality, allowing businesses to make real-time predictions for their advertising strategies. Sales prediction is a powerful tool for optimizing advertising budgets and maximizing revenue.
